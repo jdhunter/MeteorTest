@@ -40,5 +40,5 @@ PostInstall:
 Exec:
   - export PORT=3000
   - export MONGO_URL=mongodb://localhost:27017/todos
-  - export ROOT_URL=https://<-YOUR URL OR IP ADDRESS->
+  - export ROOT_URL=https://52.22.183.253
   - /usr/bin/node build/bundle/main.js
